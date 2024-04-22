@@ -616,9 +616,11 @@
     display: none !important;
   }
   .headers-btn {
-    padding-bottom: 50px !important;
+    padding-bottom: 20px !important;
   }
-
+.offcanvas{
+  min-height: 100vh;
+}
   .first-nav {
     display: none !important;
   }
