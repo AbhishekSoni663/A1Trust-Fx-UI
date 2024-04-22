@@ -931,7 +931,9 @@ footer:after {
 .about-dropdown-btn {
     display: none;
 }
-
+.headers-btn{
+    padding-bottom: 50px !important;
+}
 .ab-drp-bt:before {
     background: var(--color-tab-active);
     content: "";
