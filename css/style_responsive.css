@@ -715,7 +715,7 @@
     content: "";
     height: 20px;
     width: 20px;
-    right: -5px !important;
+    right: 3px !important;
     background-repeat: no-repeat;
     top: 3px;
 }
