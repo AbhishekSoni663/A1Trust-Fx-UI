@@ -1,0 +1,51 @@
+section.cashoutbanner {
+    background: url(../images/cash-out.webp);
+    height: 391px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: bottom;
+}
+.cardsboxcashout h4 {
+    font-weight: var(--font-weight-900);
+}
+
+.bottomcashout li p {
+    letter-spacing: 0.5px;
+}
+
+.bottomcashout:before {
+    background: var(--color-gradient-tab);
+    bottom: 0;
+    bottom: -28px;
+    content: "";
+    height: 1px;
+    left: 0;
+    margin: 0 auto;
+    opacity: .5;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+}
+.bottomcashout p {
+    letter-spacing: 0.48px;
+}
+@media screen and (max-width: 992px) {
+    section.cashoutbanner {
+    height: 356px;
+        background-size: cover;
+    }
+    }
+    
+    @media screen and (max-width: 768px) {
+        section.cashoutbanner {
+            height: 326px;
+        }
+    }
+    
+    @media screen and (max-width: 576px) {
+        section.cashoutbanner {
+            height: 203px;
+        }
+    }

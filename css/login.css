@@ -1,0 +1,59 @@
+
+body {
+    /* font-family: sans-serif; */
+    color: white;
+    font-weight: 700;
+    font-family: "new", sans-serif;
+   
+}
+section.sec_one {
+    background-image: url(../images/hero.jpg);
+    width: 100%;
+    height: 593px;
+    background-position: 50%;
+    position: relative;
+    /* top: 0; */
+    /* left: 0; */
+    background-size: cover;
+}
+.task-1 {
+    margin-top: 2.3rem;
+}
+.dontnew p, .dontnew a {
+    font-size: var(--font-18);
+}
+
+.Trust {
+	font-size: var(--font-35);
+    font-weight: 800;
+background: linear-gradient(180deg, #80d0c8, #0596e8);
+	-webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.container {
+    max-width: 1205px;
+}
+
+.loginform {
+    min-width: 425px;
+}
+.loginform input {
+    padding: 14px 20px;
+    border-radius: 10px;
+}
+.loginform .action__text {
+    background: var(--gradient-btn);
+    border-radius: 50px;
+    transition: 0.3s;
+    display: inline-block;
+    font-weight: var(--font-weight-600);
+    width: 255px;
+    font-size: var(--font-18);
+}
+.dontnew p {
+    padding-top: 10px !important;
+}
+.loginform .action__text:hover {
+    background: linear-gradient(45deg, #80d0c8, #0596e8 59%) !important;
+}

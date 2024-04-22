@@ -1,0 +1,32 @@
+section.internalbanner {
+    background: url(../images/internal.webp);
+    height: 391px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: bottom;
+}
+.toptext p {
+    letter-spacing: .03em;
+}
+@media screen and (max-width: 992px) {
+    section.internalbanner {
+        height: 357px;
+        background-size: cover;
+    }
+    }
+    
+    @media screen and (max-width: 768px) {
+    section.internalbanner {
+        height: 326px;
+    }
+    .cardsbox h4 {
+    font-size: var(--font-24);
+}
+    }
+    
+    @media screen and (max-width: 576px) {
+    section.internalbanner {
+        height: 202px;
+    }
+    }

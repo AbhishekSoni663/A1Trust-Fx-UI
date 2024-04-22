@@ -1,0 +1,1580 @@
+@media screen and (min-width: 1400px) {
+  .container {
+    max-width: 1205px !important;
+  }
+
+  .paymethod {
+    padding-left: 14px !important;
+  }
+
+  /* .footerrow {
+    display: grid;
+    grid-template-columns: 20.4% 13% 66.6%;
+  } */
+  .footerrow {
+    display: grid;
+    grid-template-columns: 20.4% 18% 61.6%;
+  }
+  /* Govind css start */
+
+  .contain_one {
+    max-width: 1140px !important;
+  }
+  .contain-1 {
+    max-width: 1142px !important;
+  }
+  #day-2 {
+    width: 88% !important;
+    margin: 0 auto !important;
+  }
+  .lapy {
+    background-image: url(../images/start-trading.webp);
+    width: 715px;
+    height: 513px;
+    background-size: cover;
+    position: absolute;
+    top: -0px;
+    right: 0px;
+  }
+
+  /* Govind css end */
+}
+
+@media screen and (max-width: 1400px) {
+  li.nav_item {
+    padding: 0 5px !important;
+    list-style: none;
+  }
+
+  .footerrow {
+    display: grid;
+    grid-template-columns: 21.4% 15% 63.6%;
+  }
+
+  a.nav_link {
+    font-size: 15px !important;
+  }
+
+  a.login_btn {
+    padding: 13px 30px !important;
+    font-size: 15px !important;
+  }
+
+  a.sing_btn {
+    padding: 12px 20px !important;
+    font-size: 15px !important;
+  }
+
+  .Trading_box h2 {
+    font-size: 40px !important;
+  }
+
+  .sing_box:before {
+    right: 320px !important;
+    top: 20px !important;
+  }
+
+  .sing_box1:before {
+    right: 320px !important;
+    top: 20px !important;
+  }
+
+  .sing_box2:before {
+    right: 320px !important;
+    top: 20px !important;
+  }
+
+  .sing_box p::after {
+    bottom: -25px !important;
+    height: 100px !important;
+    right: 343px !important;
+  }
+
+  .sing_box1 p::after {
+    bottom: -25px !important;
+    height: 100px !important;
+    right: 343px !important;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .logo_img {
+    width: 160px !important;
+    height: 65px !important;
+  }
+  .contact-form-data {
+    box-shadow: var(--shadow-light) !important;
+    width: 100% !important;
+    border-radius: 5px;
+    padding-top: 35px !important;
+  }
+  /* Govind css start */
+
+  .contain-1 {
+    max-width: 1142px !important;
+  }
+
+  .lapy {
+    background-image: url(../images/start-trading.webp);
+    width: 675px;
+    height: 484px;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+
+  #crypto-1 {
+    padding-right: 16px;
+  }
+  #crypto-2 {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+  #crypto-3 {
+    padding-left: 16px;
+  }
+
+  .sing_box:before {
+    right: 335px !important;
+  }
+
+  .sing_box1:before {
+    right: 335px !important;
+    top: 40px !important;
+  }
+
+  .sing_box1 p::after {
+    right: 356px !important;
+    bottom: -58px !important;
+  }
+
+  .sing_box2:before {
+    right: 335px !important;
+    top: 42px !important;
+  }
+
+  /* Govind css end */
+
+  /* Abhishek Soni */
+  .nav-margin {
+    margin-right: 12px !important;
+  }
+
+  /*  */
+  .footerrow {
+    display: grid;
+    grid-template-columns: 16.4% 45% 38.6%;
+  }
+
+  /* .footerrow {
+        display: grid;
+        grid-template-columns: 24.4% 14% 61.6%;
+    } */
+  .rowfootercol {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  p.fore_pare {
+    font-size: 14px !important;
+  }
+
+  .Trade_box h1 {
+    font-size: 36px !important;
+  }
+
+  .Trading_box h2 {
+    font-size: 31px !important;
+  }
+
+  .sing_box:before {
+    right: 335px !important;
+  }
+
+  .sing_box p::after {
+    right: 356px !important;
+    bottom: -51px !important;
+    height: 85px !important;
+  }
+
+  .sing_box1:before {
+    right: 335px !important;
+    top: 40px !important;
+  }
+
+  .sing_box1 p::after {
+    right: 356px !important;
+    bottom: -58px !important;
+  }
+
+  .sing_box2:before {
+    right: 335px !important;
+    top: 42px !important;
+  }
+
+  a.login_btn {
+    padding: 10px 25px !important;
+    margin-right: 15px !important;
+    font-size: var(--font-18) !important;
+  }
+
+  a.sing_btn {
+    padding: 8px 20px !important;
+    font-size: var(--font-18) !important;
+  }
+
+  li.nav_item {
+    padding: 0 6px !important;
+    list-style: none;
+  }
+
+  a.nav_link {
+    font-size: 14px !important;
+  }
+
+  .forex_box2 {
+    padding: 22px 0px 32px 28px !important;
+  }
+
+  .forex_box3 {
+    padding: 22px 0px 33px 28px !important;
+  }
+
+  .Investment_title h3 {
+    font-size: 19px !important;
+  }
+
+  p.trade-with__text.text {
+    font-size: 14px !important;
+  }
+
+  .sing_box p {
+    font-size: 15px !important;
+  }
+
+  .sing_box1 p {
+    font-size: 15px !important;
+  }
+
+  .sing_box2 p {
+    font-size: 15px !important;
+  }
+
+  /* .start_img {
+    height: 380px !important;
+  } */
+  .footerrow:before {
+    background: var(--color-gradient-border);
+    bottom: 0px;
+    content: "";
+    height: 1px;
+    opacity: 0.5;
+    position: absolute;
+    width: 100%;
+  }
+}
+
+/* Govind css start */
+
+@media screen and (max-width: 1199px) {
+  #day-2 {
+    margin-left: 34px;
+    margin-right: 45px;
+  }
+  @media screen and (max-width: 1032px) {
+    p.trade-with__text {
+      width: 320px;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .lapy {
+    background-image: url(../images/start-trading.webp);
+    width: 514px;
+    height: 368px;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+  .contain_one {
+    max-width: 1024px !important;
+  }
+  .Trading_box {
+    padding-left: 3px;
+  }
+  ul.Steps {
+    padding-right: 137px;
+  }
+
+  #day-2 {
+    margin-left: 3px;
+    margin-right: 14px;
+  }
+  .sing_box h3 {
+    font-weight: 800;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    padding-top: 6px;
+    padding-bottom: 1px;
+    padding-left: 8px;
+  }
+  .sing_box1 h3 {
+    padding-left: 8px;
+  }
+  .sing_box2 h3 {
+    padding-left: 8px;
+  }
+  .sing_box p {
+    padding-left: 8px;
+  }
+  .sing_box1 p {
+    padding-left: 8px;
+  }
+  .sing_box2 p {
+    padding-left: 8px;
+  }
+  #day {
+    padding-left: 15px;
+    padding-right: 3px;
+  }
+  #day-1 {
+    padding-left: 15px;
+    padding-right: 25px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .Trading_box h2 {
+    font-size: var(--font-35);
+  }
+  .contain_one {
+    max-width: 992px !important;
+  }
+  .Trading_box h3 {
+    font-size: var(--font-35);
+  }
+  .lapy {
+    width: 512px;
+    height: 367px;
+  }
+  ul.Steps {
+    padding-right: 125px;
+  }
+  /* .forex_box {
+        padding: 0px 0px 11px 10px !important;
+        margin: 0px 60px;
+    }
+    .forex_box2 {
+        padding: 0px 0px 11px 10px !important;
+        margin: 0px 60px;
+    }
+    .forex_box3 {
+        padding: 0px 0px 11px 10px !important;
+        margin: 0px 60px;
+    } */
+}
+
+/* Govind css end */
+
+@media screen and (max-width: 992px) {
+  .footerrow {
+    display: grid;
+    grid-template-columns: 46% 54%;
+    justify-content: left;
+  }
+
+  .footercol.rowfooter {
+    grid-column: 1/3;
+  }
+
+  .rowfootercol {
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+
+  .rowfootercol .colrowfootercol {
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+  }
+
+  .footericonsbox {
+    width: 300px;
+  }
+
+  .footerrow .footercol {
+    margin-left: 0px !important;
+    padding-left: 1px !important;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  section.sec_one {
+    height: 500px !important;
+  }
+  .contain_one {
+    max-width: 992px !important;
+  }
+  .footericonsbox {
+    width: 300px;
+  }
+  /* Govind css start */
+
+  .using {
+    margin-bottom: 0px;
+  }
+  .Trade h2 {
+    font-size: var(--font-35);
+  }
+  .forex img {
+    width: 50px;
+  }
+  #Stocks {
+    padding: 0px 65px 0px 11px;
+  }
+
+  #crypto {
+    width: 36%;
+    margin: 0 auto;
+    padding: 0px 65px 0px 11px;
+  }
+  .forex {
+    padding: 0px 65px 0px 11px;
+    margin: 0px 60px 0px 61px;
+  }
+  .required::after {
+    background: #72c9cc;
+    bottom: -50px;
+    content: "";
+    height: 72px;
+    position: absolute;
+    width: 1px;
+    right: 321px;
+    top: -125px;
+  }
+  .required::before {
+    background: #72c9cc;
+    bottom: -50px;
+    content: "";
+    height: 72px;
+    position: absolute;
+    width: 1px;
+    right: 321px;
+    top: 10px;
+  }
+
+  #day-2 {
+    margin-left: 3px;
+    margin-right: 6px;
+  }
+
+  .Trade_box h1 {
+    font-size: var(--font-35);
+    font-weight: 900;
+  }
+  .Trading_box h2 {
+    font-size: var(--font-35);
+  }
+  .Trade_heding {
+    font-size: var(--font-35);
+  }
+
+  /* Govind css end */
+  .rowfootercol {
+    grid-template-columns: 25% 24% 24% 28%;
+    gap: 49px;
+  }
+
+  .footercol.rowfooter {
+    grid-column: 1/3;
+  }
+
+  .footerrow {
+    display: grid;
+    grid-template-columns: 46% 54%;
+  }
+
+  section.sec_one {
+    top: -25px !important;
+  }
+
+  .forex_box {
+    padding: 0px 0px 28px 39px !important;
+  }
+
+  /*.forex_box2 {
+    padding: 0px  0px 28px 39px!important;
+}.forex_box3 {
+    padding: 0px  0px 28px 39px!important;
+}*/
+
+  /* .container {
+    max-width: 715px !important;
+  } */
+
+  .Payment_box {
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% !important;
+    gap: 10px;
+  }
+
+  .forex_box2 {
+    padding: 22px 0px 34px 28px !important;
+  }
+
+  .Investment_title h3 {
+    font-size: 15px !important;
+  }
+
+  .make_img {
+    width: 60px !important;
+  }
+
+  .sing_box:before {
+    right: 690px !important;
+  }
+
+  .sing_box1:before {
+    right: 690px !important;
+  }
+
+  .sing_box2:before {
+    right: 690px !important;
+  }
+
+  .sing_box1 p::after {
+    right: 712px !important;
+    bottom: -32px !important;
+    height: 71px !important;
+  }
+
+  .sing_box p::after {
+    right: 712px !important;
+    bottom: -32px !important;
+    height: 71px !important;
+  }
+
+  /* button.navbar-toggler {
+        position: absolute;
+        bottom: 13px;
+        right: 6px;
+    } */
+}
+
+@media screen and (max-width: 918px) {
+  .footerrow {
+    grid-template-columns: 50% 50%;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .footerrow {
+    grid-template-columns: 51% 28%;
+  }
+}
+
+@media screen and (max-width: 838px) {
+  .rowfootercol {
+    grid-template-columns: 25% 23% 25% 28%;
+  }
+}
+
+@media screen and (max-width: 824px) {
+  .rowfootercol {
+    grid-template-columns: 50% 50%;
+    column-gap: 0px;
+  }
+
+  .footercol.rowfooter {
+    grid-column: 1/3;
+  }
+
+  .footerrow {
+    display: block;
+  }
+
+  .footericonsbox {
+    margin: 0 auto;
+  }
+
+  .colrowfootercol.colrowfootresponsive {
+    padding-left: 13rem;
+  }
+}
+
+/* Abhishek Soni */
+@media (max-width: 1280px) {
+  .logo_title {
+    display: none !important;
+  }
+}
+
+@media (max-width: 998px) {
+  .header-btn a {
+    display: none !important;
+  }
+
+  .first-nav {
+    display: none !important;
+  }
+
+  .second-nav {
+    display: block !important;
+  }
+
+  .nav_link {
+    font-size: var(--font-16) !important;
+  }
+
+  a.login_btn {
+    padding: 15px 38px !important;
+    margin-right: 15px !important;
+  }
+
+  a.sing_btn {
+    padding: 18px 34px !important;
+    font-size: 16px !important;
+  }
+
+  ul.dropdown-menu {
+    width: 235px;
+    padding: 0 15px;
+    margin-top: 30px !important;
+    height: auto;
+  }
+
+  ul.ab-dp-menu {
+    margin-top: 2px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-head h3 {
+    font-size: var(--font-43);
+  }
+  .fin-part-btn {
+    padding: 17px !important;
+  }
+  .contact-hero {
+    height: 258px;
+    width: 100%;
+  }
+
+  .contact-form-head {
+    margin-right: auto;
+    margin-top: 0px;
+    padding-top: 0px !important;
+    width: 350px;
+  }
+  .cash-h4 {
+    margin-bottom: -12px !important;
+  }
+  /*.strat-col1 {*/
+  /*  margin-top: 30px !important;*/
+  /*}*/
+}
+
+/*  */
+@media screen and (max-width: 764px) {
+  .sec_content h1 {
+    font-size: 30px !important;
+  }
+
+  /* Abhishek Soni */
+  .form-inp1 {
+    margin-bottom: -13px;
+    border-radius: 10px !important;
+  }
+
+  .form-inp2 {
+    margin-bottom: -13px;
+    border-radius: 10px !important;
+  }
+
+  .c-form textarea {
+    border-radius: 10px !important;
+  }
+
+  .form-inp1::placeholder,
+  .form-inp2::placeholder,
+  .c-form textarea::placeholder {
+    font-size: var(--font-12);
+  }
+
+  .contact-container {
+    padding-bottom: 10px !important;
+  }
+  span.navbar-toggler-icon:before {
+    background-size: cover;
+    background-image: url(../images/burger.svg);
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    right: -5px !important;
+    background-repeat: no-repeat;
+    top: 3px;
+}
+  .dp-div {
+    opacity: 0.3 !important;
+  }
+
+  /*  */
+  section.sec_one {
+    height: 491px !important;
+}
+
+  a.start {
+    padding: 15px 45px !important;
+    font-size: 15px !important;
+  }
+
+  p.fore_pare {
+    font-size: 14px !important;
+  }
+
+  /* .container {
+    max-width: 550px !important;
+  } */
+
+  .forex_box {
+    padding: 0px 0px 28px 10px !important;
+  }
+
+  h2.Trade_heding {
+    font-size: 25px !important;
+  }
+
+  .sing_box:before {
+    right: 490px !important;
+  }
+
+  .sing_box1:before {
+    right: 490px !important;
+  }
+
+  .sing_box2:before {
+    right: 490px !important;
+  }
+
+  .sing_box1 p::after {
+    right: 510px !important;
+  }
+
+  .sing_box p::after {
+    right: 510px !important;
+  }
+
+  .start_img {
+    max-height: 380px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  a.start {
+    padding: 12px 35px !important;
+    font-size: 15px !important;
+  }
+  .c-form textarea {
+    border-radius: 10px !important;
+    margin-top: 25px !important;
+  }
+  .card-box-col1 {
+    margin-top: 22px !important;
+    /*margin-bottom: -17px;*/
+  }
+
+  .rowfootercol {
+    grid-template-columns: 55% 45%;
+    column-gap: 0px;
+  }
+  .strat-col1 {
+    margin-top: 10px !important;
+  }
+
+  .colrowfootercol.colrowfootresponsive {
+    padding-left: 3rem;
+  }
+
+  .ab-drp-bt {
+    margin-top: 25px !important;
+  }
+
+  section.sec_one {
+    height: 550px !important;
+    top: -30px !important;
+  }
+
+  .sec_content h1 {
+    font-size: 35px !important;
+  }
+
+  .sec_content p {
+    font-size: 15px !important;
+  }
+
+  /* .container {
+    max-width: 345px !important;
+  } */
+
+  .Trade_box h1 {
+    font-size: 20px !important;
+  }
+
+  .forex_img img {
+    width: 25% !important;
+  }
+
+  .forex_img {
+    width: 100% !important;
+    height: 60px !important;
+  }
+
+  p.fore_pare {
+    line-height: 1.3 !important;
+  }
+
+  .forex_box2 {
+    padding: 10px 0px 15px 7px !important;
+  }
+
+  .forex_box3 {
+    padding: 22px 0px 15px 7px !important;
+  }
+
+  .forex_box {
+    padding: 0px 0px 15px 10px !important;
+  }
+
+  h2.Trade_heding {
+    font-size: 20px !important;
+  }
+
+  .Investment_title h3 {
+    font-size: 15px !important;
+  }
+
+  p.trade-with__text {
+    font-size: 12px !important;
+  }
+
+  .make_img {
+    width: 40px !important;
+  }
+
+  .Investment_content {
+    padding: 5px 25px !important;
+  }
+
+  .Investment_title h3 {
+    font-size: 13px !important;
+  }
+
+  p.trade-with__text {
+    font-size: 10px !important;
+  }
+
+  .start_img {
+    height: 260px;
+  }
+
+  .Trading_box h2 {
+    font-size: 20px !important;
+  }
+
+  .sing_box:before {
+    right: 315px !important;
+  }
+
+  .sing_box1:before {
+    right: 315px !important;
+  }
+
+  .sing_box2:before {
+    right: 315px !important;
+  }
+
+  .sing_box1 p::after {
+    right: 334px !important;
+    bottom: -25px !important;
+    height: 100px !important;
+  }
+
+  .sing_box p::after {
+    right: 334px !important;
+    bottom: -25px !important;
+    height: 100px !important;
+  }
+}
+
+/* Abhsehk Soni */
+@media (max-width: 1024px) {
+  .contact-form-head {
+    padding-top: 25px;
+  }
+
+  .c-form {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .btn-send1 {
+    padding: 15px 20px;
+    margin-bottom: -17px !important;
+    margin-top: -17px !important;
+  }
+
+  .contact-hero {
+    background-image: url(../images/contact.webp) !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 270px;
+    width: 100%;
+  }
+}
+@media (max-width: 1279px) {
+  .contact-form-data {
+    box-shadow: var(--shadow-light) !important;
+    width: 93%;
+    border-radius: 5px;
+  }
+}
+/*  */
+@media screen and (max-width: 575px) {
+  .task-2 form input {
+    font-size: var(--font-12) !important;
+  }
+  .fin-h4 {
+    font-size: var(--font-20);
+  }
+  .part-main {
+    padding: 8px 13px !important;
+  }
+  /* Govind css start */
+  .required::before {
+    background: #72c9cc;
+    bottom: -50px;
+    content: "";
+    height: 97px;
+    position: absolute;
+    width: 1px;
+    right: 416px;
+    top: -3px;
+  }
+  .required::after {
+    background: #72c9cc;
+    bottom: -50px;
+    content: "";
+    height: 97px;
+    position: absolute;
+    width: 1px;
+    right: 416px;
+    top: -125px;
+  }
+  .lapy {
+    width: 100%;
+    height: 250px;
+  }
+  .Steps p {
+    font-size: 12px;
+  }
+  ul.Steps {
+    padding-right: 0px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .two_li::before {
+    top: 110px;
+  }
+  .three_li::before {
+    top: 218px;
+  }
+  .Steps h4 {
+    font-size: 20px;
+    padding-bottom: 4px;
+  }
+
+  p.market {
+    font-size: 12px;
+  }
+
+  #forex-w {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  #Stocks {
+    padding: 0px 37px 0px 11px;
+    margin-left: 0px;
+  }
+  #crypto {
+    width: 63%;
+    margin: 0 auto;
+    padding: 0px 65px 0px 11px;
+  }
+
+  .start_img {
+    max-height: 220px;
+  }
+
+  .three_li::after {
+    background: #72c9cc;
+    bottom: -50px;
+    content: "";
+    height: 90px;
+    position: absolute;
+    width: 1px;
+    left: 21px;
+    top: 144px;
+  }
+  .two_li::after {
+    background: #72c9cc;
+    bottom: -50px;
+    content: "";
+    height: 72px;
+    position: absolute;
+    width: 1px;
+    top: 41px;
+    left: 21px;
+  }
+
+  /* Govind css end */
+
+  /* Abhishek-Soni */
+  .form-inp {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .contact-form-head {
+    margin-right: auto;
+    width: 180px;
+    padding-top: 30px !important;
+  }
+
+  .btn-send1 {
+    padding: 15px 20px;
+    margin-bottom: -25px !important;
+    margin-top: -25px !important;
+  }
+
+  .contact-container {
+    padding-top: 0px !important;
+  }
+
+  .contact-form-data {
+    width: 100% !important;
+    padding-top: 22px !important;
+    margin-top: 35px !important;
+  }
+
+  .contact-form-head img {
+    width: 40px;
+    height: 40px;
+  }
+
+  textarea.form-control {
+    min-height: calc(4em + 3.5rem + 5px);
+  }
+
+  .fin-part-all .cardsbox {
+    width: 100% !important;
+  }
+  .fint-part-btn {
+    width: 100% !important;
+  }
+  .contact-link-h1 {
+    font-size: var(--font-20);
+    text-align: center;
+    margin-top: 10px !important;
+  }
+
+  .form-h2 {
+    font-size: var(--font-20);
+    padding-bottom: 5px;
+  }
+
+  .contact-link-h1 a {
+    font-size: var(--font-12);
+  }
+
+  .c-form {
+    padding: 0px 20px;
+  }
+
+  .nav_link {
+    font-size: var(--font-14) !important;
+  }
+
+  .dropdown-item {
+    font-size: var(--font-12) !important;
+  }
+
+  .contact-hero {
+    background-image: url("/images/contact.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 174px;
+    width: 100%;
+  }
+
+  .contact-head h3 {
+    font-size: var(--font-27);
+  }
+
+  .form-inp2 {
+    margin-bottom: -13px;
+    margin-top: 24px;
+    margin-left: 0px;
+    border-radius: 10px !important;
+  }
+
+  /*  */
+}
+/* Abhishek - Soni */
+@media (max-width: 478px) {
+  .part-c-btn,
+  .fin-part-btn {
+    width: 100% !important;
+  }
+  .fin-part-all {
+    display: flex;
+    flex-direction: column;
+  }
+  .part-main {
+    padding: 8px 13px !important;
+  }
+}
+/* Govind css start */
+
+@media screen and (max-width: 768px) {
+  .Trade_box h1 {
+    margin: 0 30px !important;
+  }
+  .Trade h2 {
+    font-size: var(--font-35);
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0px !important;
+  }
+  .forex {
+    padding: 0px 65px 0px 11px;
+    margin: 0px 5px 0px 5px;
+  }
+  #crypto {
+    width: 47%;
+    margin: 0 auto;
+    padding: 0px 65px 0px 11px;
+  }
+  .required::after {
+    background: #72c9cc;
+    bottom: -50px;
+    content: "";
+    height: 72px;
+    position: absolute;
+    width: 1px;
+    right: 371px;
+    top: -125px;
+  }
+  .required::before {
+    background: #72c9cc;
+    bottom: -50px;
+    content: "";
+    height: 72px;
+    position: absolute;
+    width: 1px;
+    right: 371px;
+    top: 10px;
+  }
+  .Trading_box h2 {
+    font-size: var(--font-20);
+    text-align: center;
+  }
+  .Trading_box h3 {
+    font-size: var(--font-20);
+    text-align: center;
+  }
+  ul.Steps {
+    padding-right: 0px;
+    width: 53%;
+    margin: 0 auto;
+  }
+  .access {
+    display: grid !important;
+  }
+  .access-1 {
+    width: 100% !important;
+    order: 2;
+  }
+  .Trading_box {
+    padding-top: 0px;
+  }
+  .access-2 {
+    order: 1;
+  }
+  .btn {
+    order: 3;
+  }
+  .lapy {
+    background-image: url(../images/start-trading.webp);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: unset;
+    top: 0px;
+    right: 0px;
+  }
+  .forex_box {
+    margin: 0px 0px;
+  }
+  .forex_box3 {
+    margin: 0px 0px;
+  }
+  .forex_box2 {
+    margin: 0px 0px;
+  }
+  div#day-2 {
+    display: block;
+  }
+  .profit {
+    width: 100% !important;
+  }
+  p.trade-with__text {
+    display: inline;
+  }
+  .market {
+    display: inline;
+  }
+  .make_img {
+    margin-right: 0px !important;
+    width: 88px !important;
+  }
+}
+
+/* Govind css end */
+
+@media screen and (max-width: 425px) {
+  .rowfootercol {
+    grid-template-columns: 48% 50%;
+    column-gap: 0px;
+  }
+
+  .colrowfootercol.colrowfootresponsive {
+    padding-left: 1.5rem;
+  }
+  /* Govind css start */
+
+  p.market {
+    font-size: 12px;
+    padding-right: 20px;
+  }
+  .two_li::after {
+    background: #72c9cc;
+    bottom: -50px;
+    content: "";
+    height: 45px;
+    position: absolute;
+    width: 1px;
+    top: 60px;
+    left: 21px;
+  }
+  .three_li::after {
+    background: #72c9cc;
+    bottom: -50px;
+    content: "";
+    height: 45px;
+    position: absolute;
+    width: 1px;
+    left: 21px;
+    top: 184px;
+  }
+  .contain_one {
+    max-width: 418px !important;
+  }
+  .forex p {
+    font-size: 12px;
+  }
+  .forex img {
+    width: 32px;
+  }
+  .forex img {
+    width: 32px;
+    height: 50px;
+  }
+  .forex {
+    padding: 0px 49px 0px 11px;
+    margin: 0px 0px 0px 0px;
+  }
+  #crypto {
+    width: 36%;
+    margin: 0 auto;
+    padding: 0px 39px 0px 11px;
+  }
+  ul.Steps {
+    padding-right: 0px;
+    width: 72%;
+    margin: 0 auto;
+  }
+  .required::before {
+    background: #72c9cc;
+    bottom: -50px;
+    content: "";
+    height: 42px;
+    position: absolute;
+    width: 1px;
+    right: 264px;
+    top: 15px;
+  }
+  .required::after {
+    background: #72c9cc;
+    bottom: -50px;
+    content: "";
+    height: 42px;
+    position: absolute;
+    width: 1px;
+    right: 264px;
+    top: -110px;
+  }
+  .two_li::before {
+    top: 125px;
+  }
+  .three_li::before {
+    top: 248px;
+  }
+  .lapy {
+    width: 100%;
+    height: 200px;
+  }
+
+  .Steps h4 {
+    padding-bottom: 3px;
+  }
+
+  /* Govind css end */
+}
+
+@media (max-width: 498px) {
+  .btn-send1 {
+    padding: 15px 20px;
+    margin-bottom: -25px !important;
+    margin-top: -35px !important;
+  }
+
+  .contact-form-head {
+    margin-right: auto;
+    width: 155px;
+  }
+
+  .contact-container {
+    padding-bottom: 0px !important;
+  }
+  .footerrow {
+    padding-top: 0px !important;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  /* .container {
+    max-width: 290px !important;
+  } */
+
+  .colrowfootercol.colrowfootresponsive {
+    padding-left: 1rem;
+  }
+
+  .forex_box2 {
+    padding: 10px 0px 32px 7px !important;
+  }
+
+  .contact-form-head {
+    margin-right: auto;
+    width: 130px;
+  }
+
+  .sing_box:before {
+    right: 245px !important;
+  }
+
+  .sing_box1:before {
+    right: 245px !important;
+  }
+
+  .sing_box2:before {
+    right: 245px !important;
+  }
+
+  .sing_box1 p::after {
+    right: 266px !important;
+  }
+
+  .sing_box p::after {
+    right: 266px !important;
+  }
+  /* Govind css start */
+
+  .forex h3 {
+    margin-bottom: 25px;
+    margin-top: 10px !important;
+  }
+  .forex {
+    padding: 0px 18px 0px 11px;
+    margin: 0px 0px 0px 0px;
+  }
+  .Trade {
+    padding-top: 0px;
+  }
+
+  .Trade h2 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #crypto {
+    width: 40%;
+    margin: 0 auto;
+    padding: 0px 30px 0px 11px;
+  }
+  .required::before {
+    background: #72c9cc;
+    bottom: -50px;
+    content: "";
+    height: 42px;
+    position: absolute;
+    width: 1px;
+    right: 251px;
+    top: 15px;
+  }
+  .required::after {
+    background: #72c9cc;
+    bottom: -50px;
+    content: "";
+    height: 42px;
+    position: absolute;
+    width: 1px;
+    right: 251px;
+    top: -110px;
+  }
+  ul.Steps {
+    padding-right: 20px;
+    width: 84%;
+    margin: 0 auto;
+  }
+  .lapy {
+    width: 100%;
+    height: 200px;
+  }
+
+  /* Govind css end */
+}
+
+/* Abhisehk Soni */
+@media (max-width: 767px) {
+  .about-dropdown-btn {
+    display: block;
+  }
+  .fin-part-btn {
+    margin-top: 13px !important;
+  }
+  .part-main {
+    padding: 8px 14px !important;
+  }
+  .ab-drp-bt {
+    margin-top: 55px;
+  }
+}
+
+/* Abhisehk-Soni */
+
+.offcanvas {
+  min-height: 100vh;
+  background-color: var(--color-dark-300) !important;
+}
+
+.offcanvas-body {
+  height: 100%;
+}
+
+.nav-home {
+  height: 65px;
+}
+
+.nav-about {
+  height: 270px;
+  margin-top: 10px;
+}
+
+.nav-inv {
+  height: 280px;
+  margin-top: 20px;
+}
+
+.nav-part {
+  height: 260px;
+  margin-top: 40px;
+}
+
+.nav-fin {
+  height: 250px;
+  margin-top: 35px;
+}
+
+.nav-contact {
+  margin-top: 30px;
+  height: 40px;
+}
+
+@media (max-width: 320px) {
+  /* Govind css start */
+
+  #Stocks {
+    padding: 0px 16px 0px 11px;
+    margin-left: 0px;
+  }
+  #crypto {
+    width: 48%;
+    margin: 0 auto;
+    padding: 0px 14px 0px 11px;
+  }
+  .contain_one {
+    max-width: 315px !important;
+  }
+  .required::before {
+    background: #72c9cc;
+    bottom: -50px;
+    content: "";
+    height: 42px;
+    position: absolute;
+    width: 1px;
+    right: 244px;
+    top: 15px;
+  }
+  .required::after {
+    background: #72c9cc;
+    bottom: -50px;
+    content: "";
+    height: 42px;
+    position: absolute;
+    width: 1px;
+    right: 244px;
+    top: -110px;
+  }
+  ul.Steps {
+    padding-right: 20px;
+    width: 97%;
+    margin: 0 auto;
+  }
+  .lapy {
+    width: 100%;
+    height: 200px;
+  }
+  .Trading_box h2 {
+    font-size: 20px !important;
+    text-align: center;
+  }
+
+  /* Govind css end */
+}

@@ -1,0 +1,33 @@
+section.organizationbanner {
+    background: url(../images/organization.webp);
+    height: 391px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: bottom;
+}
+.toptext p {
+    letter-spacing: .03em;
+}
+@media screen and (max-width: 992px) {
+    section.organizationbanner {
+        height: 356px;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 768px) {
+ section.organizationbanner {
+    height: 326px;
+}
+}
+@media screen and (max-width: 640px) {
+section.organizationbanner {
+    height: 394px;
+}
+}
+@media screen and (max-width: 576px) {
+    section.organizationbanner {
+        height: 231px;
+    }
+}

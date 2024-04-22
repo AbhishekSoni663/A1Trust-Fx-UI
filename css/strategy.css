@@ -1,0 +1,78 @@
+section.strategybanner {
+    background: url(../images/strategy.webp);
+    height: 391px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: bottom;
+}
+
+.cardsbox h4 {
+    font-weight: var(--font-weight-900);
+}
+
+.cardsbox .card-title {
+    font-weight: var(--font-weight-700);
+}
+
+.cardsbox .card-text p {
+    font-weight: var(--font-weight-400);
+    font-size: var(--font-12);
+    letter-spacing: .9px;
+    line-height: 1.5833333333;
+}
+
+.cardsbox .card-title:before {
+    background: linear-gradient(90deg, #aaa, hsla(0, 0%, 100%, 0));
+    bottom: 0;
+    bottom: -6px;
+    content: "";
+    height: 1px;
+    left: 0;
+    margin: 0 auto;
+    max-width: 255px;
+    opacity: .5;
+    position: absolute;
+    right: 0;
+    right: auto;
+    width: 100%;
+    z-index: 1;
+}
+
+.cardsbox .card {
+    min-height: 131px;
+}
+
+@media screen and (max-width: 992px) {
+    section.strategybanner {
+        height: 355px;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .cardsbox .card {
+        min-height: 131px;
+    }
+
+    /*.card.cardminheight {*/
+    /*    min-height: 178px;*/
+    /*}*/
+}
+
+@media screen and (max-width: 768px) {
+    section.strategybanner {
+        height: 327px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    section.strategybanner {
+        height: 203px;
+    }
+
+    .cardsbox .card {
+        min-height: auto;
+    }
+}

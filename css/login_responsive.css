@@ -1,0 +1,47 @@
+@media screen and (max-width: 991px) {
+  section.sec_one {
+    height: 565px !important;
+    top: 0px !important;
+  }
+}
+
+@media screen and (max-width: 764px) {
+  section.sec_one {
+    height: 538px !important;
+  }
+  .task-1 {
+    margin-top: 0.8rem !important;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .task-1 form input {
+    font-size: var(--font-12) !important;
+  }
+
+  section.sec_one {
+    height: 520px !important;
+    top: 0px !important;
+  }
+  .loginform {
+    min-width: 370px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .loginform {
+    min-width: 320px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .loginform {
+    min-width: 100%;
+  }
+  .Trust {
+    font-size: var(--font-30);
+    font-weight: var(--font-weight-800);
+    background: var(--gradient-btn);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+}

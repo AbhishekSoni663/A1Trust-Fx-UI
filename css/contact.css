@@ -1,0 +1,222 @@
+.content_section {
+    background-image: url(../images/contact.webp);
+    width: 100%;
+    height: 206px;
+    background-size: cover;
+    background-position: bottom;
+}
+/*.Trust_second {
+    background-image: url('../images/hero.jpg');
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}*/
+.contact-form {
+    background: rgb(231 236 243);
+}
+.contact {
+    font-size: var(--font-65);
+    font-family: sans-serif;
+    font-weight: var(--font-weight-900);
+    background: linear-gradient(180deg, #80d0c8, #0596e8);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+input {
+    border-color: #1a1a1a1a;
+}
+.second {
+    background: #f0f3f8;
+}.cust {
+    font-family: sans-serif;
+    font-weight: var(--font-weight-900);
+    font-size: var( --font-24);
+}.support {
+    font-size: var(--font-16);
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+.fore_btn.btn {
+    background: var(--gradient-btn);
+    padding: 15px 104px;
+    font-size: var(  --font-17);
+    font-family: sans-serif;
+    font-weight: var(--font-weight-800);
+    line-height: 1.8;
+}
+.tap {
+    padding-bottom: 12px;
+}
+.contact__title {
+    font-family:sans-serif;
+    font-size: var(--font-22);
+    font-weight: var(--font-weight-900);
+    line-height: 1.4;
+}
+.cust {
+    font-family: sans-serif;
+    letter-spacing: -1px;
+}
+.container_one {
+    max-width: 1205px !important;
+}img.headphone {
+    width: 70px;
+
+}input#your-name::placeholder {
+    font-size: var(--font-15);
+    letter-spacing: 1px;
+    color:#787878;
+}
+
+input#your-surname::placeholder {
+    font-size: var(--font-15);
+    letter-spacing: 1px;
+    color:#787878;
+}
+/*input#your-name::placeholder {
+    font-size: 15px;
+    letter-spacing: 1px;
+}*/
+textarea#your-message::placeholder {
+    font-size:15px;
+    letter-spacing: 1px;
+    color:#787878;
+}
+textarea#your-message {
+    resize: none;
+}
+.one {
+    height: 55px;
+    border-radius: 10px !important;
+    padding-left: 20px !important;
+}
+.form-control {
+    height: 55px;
+}
+textarea#your-message {
+    resize: none;
+    height: 133px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 13px!important;
+}
+.container_one {
+    padding-bottom: 40px;
+}
+.form-control:focus {    
+    border-color: #070809!important;
+    box-shadow: 0 0 0 0 #0f101140!important;
+}.fore_btn:hover {
+    background: linear-gradient(45deg, #80d0c8, #0596e8);
+}
+/*.headphone1 {
+    padding-left: 86px !important;
+}*/
+/* Abhisehk Soni */
+.contact-head {
+    height: 60%;
+}
+
+.contact-link-h1 {
+    font-size: var(--font-24);
+    display: flex;
+    letter-spacing: normal;
+    flex-direction: column;
+    align-items: center;
+    font-weight: var(--font-weight-900) !important;
+}
+
+.contact-form-head {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    align-items: center;
+}
+
+.contact-link-h1 a {
+    font-size: var(--font-16);
+    color: inherit !important;
+    font-weight: var(--font-weight-400);
+}
+
+.contact-form-data {
+    box-shadow: var(--shadow-light) !important;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.c-form {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.contact-form {
+    background-color: rgb(231 236 243);
+}
+
+.form-h2 {
+    font-size: var(--font-24);
+    font-weight: var(--font-weight-900);
+    line-height: 1.1666666667;
+    letter-spacing: normal;
+    font-family: var(--font-family-secondary);
+}
+
+.c-form textarea {
+    resize: none;
+    margin-top: 30px !important;
+    height: 135px !important;
+}
+
+.btn-send1 {
+    padding: 15px 20px;
+    width: 255px;
+    margin-bottom: -5px !important;
+    margin-top: -16px !important;
+    font-size: var(--font-18);
+    font-weight: var(--font-weight-700);
+    background: var(--gradient-btn);
+}
+
+.btn-send1:hover {
+    background: var(--gradient-btn-hover);
+}
+
+.form-control {
+    border: 1px solid #ced4da5c !important;
+    border-radius: 9px !important;
+    padding: 14px 20px !important;
+}
+
+.form-inp1 {
+    margin-right: 15px;
+}
+
+.form-inp2 {
+    margin-left: 15px;
+}
+
+.contact-container {
+    padding-top: 45px !important;
+}
+.contact-head h3 {
+    background: var(--gradient-btn);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: var(--color-gradient-main) !important;
+    display: inline-block;
+    font-family: "GalanoGrotesqueAltDEMO-Bold", sans-serif;
+    font-size: var(--font-65);
+    font-weight: var(--font-weight-900) !important;
+    letter-spacing: normal;
+}
+.contact-hero {
+    background-image: url(../images/contact.webp) !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 338px;
+    width: 100%;
+}
+/*  */

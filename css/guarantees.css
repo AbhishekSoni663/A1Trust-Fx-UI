@@ -1,0 +1,29 @@
+section.guaranteesbanner {
+    background: url(../images/guarantees.webp);
+    height: 313px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.toptext p {
+    letter-spacing: .03em;
+}
+@media screen and (max-width: 992px) {
+    section.guaranteesbanner {
+        height: 289px;
+        background-size: cover;
+    }
+    }
+    
+    @media screen and (max-width: 768px) {
+    section.guaranteesbanner {
+        height: 258px;
+    }
+    }
+    
+    @media screen and (max-width: 576px) {
+    section.guaranteesbanner {
+        height: 172px;
+    }
+    }

@@ -1,0 +1,133 @@
+section.investmentbanner {
+    background: url(../images/investment.webp);
+    height: 391px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: bottom;
+}
+.btmbox p {
+    font-weight: var(--font-weight-900);
+}
+.amtdiv p {
+    font-size: var(--font-20);
+    font-weight: var(--font-weight-700);
+}
+.amtdivborder {
+    border: 1px solid var(--color-gray-100) !important;
+}
+.btmdiv:before {
+    background: var(--color-tab-active);
+    background: var(--color-calc);
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: .3;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+    border-radius: 5px;
+}
+.amtform input#amt {
+    background: transparent;
+    border-color: var(--color-gray-100) !important;
+}
+.amtform span {
+    top: 1px;
+    right: 2px;
+    padding: 8px 15px;
+        /*padding: 11px 15px;*/
+
+}
+.amtform p {
+    background: linear-gradient(180deg, #80d0c8, #0596e8);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: var(--font-weight-700);
+}
+.middlebox {
+    background: var(--gradient-btn);
+}
+.middlebox span,.middlebox h4 {
+    font-weight: var(--font-weight-700);
+    color: #fff;
+}
+.textbox span {
+    font-size: var(--font-24);
+    background: linear-gradient(180deg, #80d0c8, #0596e8);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: var(--font-weight-900);
+}
+.textbox p {
+    font-size: var(--font-12);
+    font-weight: var(--font-weight-400);
+}
+.topcontent p {
+    font-size: var(--font-24);
+    font-weight: var(--font-weight-700);
+    background: linear-gradient(180deg, #80d0c8, #0596e8);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.topcontent:before {
+    background: var(--gradient-center);
+    border-radius: 5px;
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: .3;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.bottomcashoutbtm p {
+    color: #32ba7c;
+    font-weight: var(--font-weight-700);
+    letter-spacing: normal !important;
+}
+.bottomcashout.bottomcashoutone:before {
+    bottom: -18px;
+}
+.paracontent p {
+    font-size: var(--font-12);
+    letter-spacing: .5px;
+}
+@media screen and (max-width: 992px) {
+    section.investmentbanner {
+    height: 356px;
+    background-size: cover;
+}
+}
+/* @media screen and (max-width: 991px) {
+    section.cashoutbanner {
+        height: 326px;
+        background-size: cover;
+    }
+} */
+
+@media screen and (max-width: 768px) {
+    .amtdiv {
+        margin: 0 auto;
+        width: 230px ;
+    }
+section.investmentbanner {
+            height: 326px;
+        }
+        
+}
+/* @media screen and (max-width: 767px) {
+    section.cashoutbanner {
+        height: 195px;
+    }
+} */
+
+
+
+@media screen and (max-width: 576px) {
+section.investmentbanner {
+    height: 202px;
+}
+}

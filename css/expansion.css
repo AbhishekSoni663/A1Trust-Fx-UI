@@ -1,0 +1,56 @@
+section.expansionbanner {
+    background: url(../images/expansion.webp);
+    height: 469px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.content .contentspan {
+    background: linear-gradient(9deg, #80d0c8, #0596e8);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.expansioncard .card-title {
+    font-size: var(--font-16);
+    max-width: 300px;
+    font-weight: var(--font-weight-700);
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+.expansioncard .card-title {
+    min-height: 48px;
+}
+.expansioncard .card-text {
+    font-size: var(--font-12);
+    font-family: sans-serif;
+    line-height: 1.5;
+    letter-spacing: normal;
+}
+.expansioncard{
+    height: 94% !important;
+}
+@media screen and (max-width: 992px) {
+    section.expansionbanner {
+        height: 424px;
+    }
+    }
+    
+    @media screen and (max-width: 768px) {
+    section.expansionbanner {
+           height: 394px;
+        }
+    }
+    @media screen and (max-width: 576px) {
+    section.expansionbanner {
+        height: 233px;
+    }
+    }
+    
+    @media screen and (max-width: 431px) {
+        section.expansionbanner {
+            height: 325px !important;
+        }
+    }

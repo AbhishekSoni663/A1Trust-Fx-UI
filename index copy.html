@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Trust-fx</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style_responsive.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Manjari:wght@100;400;700&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Manjari:wght@100;400;700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class=" header scroll">
+        <div class="contanier ps-3 py-3">
+            <div class="hader_boxx d-flex my-2  justify-content-lg-around justify-content-between align-items-baseline">
+                <div class="logo  d-flex">
+                    <a href="#" class="logo_img">
+                        <img src="images/logo.svg">
+                    </a>
+                    <div class="logo_title pt-2 d-xxl-block d-none">
+                        <div class="sin">
+                            <span class="text-white">Since 2015</span>
+                        </div>
+                        <div class="onlin">
+                            <span class="">online <span class="a">3157</span> days</span>
+                        </div>
+                    </div>
+                </div>
+                <nav class="nav d-lg-flex d-none mx-xl-5 mx-0  px-3 ">
+                    <ul class="nav_list d-flex ps-4 ">
+                        <li class="nav_item">
+                            <a href="#" class="nav_link">Home</a>
+
+
+                        </li>
+                        <!-- <a href="#"  class=" nav_link" data-bs-toggle="dropdown" aria-expanded="false">About us</a> -->
+                        <!--    <ul class="dropdown-menu">
+                                    <li class="dropdown__item ">
+                                        <a class="dropdown__link" href="#">Team</a>
+                                    </li>
+                                    <li class="dropdown__item ">
+                                        <a class="dropdown__link" href="#">Strategy</a>
+                                    </li>
+                                    <li class="dropdown__item dropdown__action">
+                                        <a class="dropdown__btn btn" href="#">Sign up</a>
+                                        <a class="dropdown__btn btn btn--text" href="#">Login</a>
+                                    </li>
+                                </ul> -->
+
+                        <li class="nav-item dropdown">
+                            <a class="nav_link " href="#" id="navbarDropdown" role="button" aria-expanded="false">
+                                About us
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Team</a></li>
+                                <li><a class="dropdown-item" href="#">Strategy</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li class="dropdown__item ">
+                                    <a class="dropdown__btn btn singg my-2" href="#">Sign up</a>
+                                    <a class="dropdown__btn btn btn--text border-0 py-3" href="#">Login</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav_item dropdown">
+                            <a href="#" class="nav_link">Investment plans</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Cash in</a></li>
+                                <li><a class="dropdown-item" href="#">Cash Out</a></li>
+                                <li><a class="dropdown-item" href="#">Guarantees</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li class="dropdown__item ">
+                                    <a class="dropdown__btn btn singg my-2" href="#">Sign up</a>
+                                    <a class="dropdown__btn btn btn--text border-0 py-3" href="#">Login</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav_item dropdown">
+                            <a href="#" class="nav_link">Partnership</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Investors</a></li>
+                                <li><a class="dropdown-item" href="#">Official representatives</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li class="dropdown__item ">
+                                    <a class="dropdown__btn btn singg my-2" href="#">Sign up</a>
+                                    <a class="dropdown__btn btn btn--text border-0 py-3" href="#">Login</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav_item dropdown">
+                            <a href="#" class="nav_link">Financial Plans</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Internal Processes</a></li>
+                                <li><a class="dropdown-item" href="#">Expansion of the company</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li class="dropdown__item ">
+                                    <a class="dropdown__btn btn singg my-2" href="#">Sign up</a>
+                                    <a class="dropdown__btn btn btn--text border-0 py-3" href="#">Login</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav_item ps-4 ms-1">
+                            <a href="#" class="nav_link">Contact</a>
+                        </li>
+                    </ul>
+
+                </nav>
+                <div class="header__actions d-lg-block d-none pt-2 ps-xl-5 ps-0 ">
+                    <a href="#" class="login_btn  text-white me-3">
+                        Login
+                    </a>
+                    <a href="#" class="sing_btn text-white">
+                        Sign up
+                    </a>
+                </div>
+
+                <nav class="navbar navbar-dark bg-dark ">
+
+                    <button class="navbar-toggler d-lg-none d-block" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                        aria-labelledby="offcanvasDarkNavbarLabel">
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                        <div class="offcanvas-body">
+                            <ul class="nav_list  ps-4 ">
+                                <li class="nav_item">
+                                    <a href="#" class="nav_link">Home</a>
+                                </li>
+                                <li class="nav_item">
+                                    <a href="#" class="nav_link">About us</a>
+
+                                </li>
+                                <li class="nav_item">
+                                    <a href="#" class="nav_link">Investment plans</a>
+                                </li>
+                                <li class="nav_item">
+                                    <a href="#" class="nav_link">Partnership</a>
+                                </li>
+                                <li class="nav_item">
+                                    <a href="#" class="nav_link">Financial Plans</a>
+                                </li>
+                                <li class="nav_item ps-4 ms-1">
+                                    <a href="#" class="nav_link">Contact</a>
+                                </li>
+                            </ul>
+                            <div class="header__actions pt-2  ">
+                                <a href="#" class="login_btn me-3">
+                                    Login
+                                </a>
+                                <a href="#" class="sing_btn">
+                                    Sign up
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </nav>
+
+            </div>
+        </div>
+    </header>
+
+
+    <section class="sec_one">
+        <div class="container">
+            <div class="sec_content pt-3 ">
+                <h1 class="text-white">expand your <br>
+                    <span>trading horizon</span>
+                </h1>
+                <p class="text-white mb-md-5 mb-4 pb-2">
+                    TrustFX — the best solution for trading Forex, <br>Stocks and Crypto
+                </p>
+                <a href="#" class="start">Start Trading</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="three  py-md-5 py-3">
+        <div class="container px-md-5 px-0">
+            <div class="Trade_box text-center mt-md-4 mt-0">
+                <h1 class="pt-3">
+                    Trade Over
+                    <span>
+                        2300 Instruments
+                    </span>
+                    with TrustFX
+                </h1>
+            </div>
+            <div class="row mt-4 justify-content-center gy-md-0 gy-4 pb-5">
+                <div class="col-md-4 col-sm-6 col-12 pe-3">
+                    <div class="forex_box ">
+                        <div class=" forex_img text-md-start text-center mb-lg-5 mb-2 pb-lg-3 pb-0 pt-lg-0 pt-3">
+                            <img src="images/forex.svg" class="">
+                        </div>
+                        <h3 class="fore_heading pt-lg-2 pt-4 mt-lg-0 mt-3 ">Forex</h3>
+                        <p class="fore_pare mt-4 mb-0 pt-1"> Trade and earn through<br> exchanging national currencies
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-12">
+                    <div class="forex_box2 ">
+                        <div class=" forex_img text-md-start text-center mb-lg-5 mb-md-2 mb-0 pb-md-3 pb-0">
+                            <img src="images/phone-messanger.svg" class="">
+                        </div>
+                        <h3 class="fore_heading  pt-md-2 pt-0  mt-lg-0 mt-3"> Stocks </h3>
+
+                        <p class="fore_pare mt-4 mb-0">
+                            Buy or sell shares of an entity listed in<br> the stock market
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-12">
+                    <div class="forex_box3 ">
+                        <div class=" forex_img text-md-start text-center mb-lg-5 mb-2 pb-3">
+                            <img src="images/exchange.svg" class="">
+                        </div>
+                        <h3 class="fore_heading mt-lg-4 mt-0 pt-md-2 pt-0"> Crypto </h3>
+
+                        <p class="fore_pare mt-4 mb-0"> Buy or sell any digital currencies <br> using CEX/DEX</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="fore py-md-5 py-3">
+        <div class="container px-md-5 px-0 pt-4 mt-3">
+            <div class="Trade_box  text-center">
+                <h2 class="Trade_heding">
+                    Why <span> Trade</span> With TrustFX?
+                </h2>
+            </div>
+            <div class="row gy-2 pt-3 pe-lg-0 pe-2 pb-5">
+                <div class="col-md-6 col-12  pe-0">
+                    <div class="  Investment_content bg-white d-flex justify-content-around">
+                        <div class="Investment_title">
+                            <h3 class="pt-3">
+                                Investment Security
+                            </h3>
+                            <p class="trade-with__text text">
+                                Your money is protected and payout of profit is <br>guaranteed
+                            </p>
+                        </div>
+                        <div class="make_img ">
+                            <img src="images/make-profit.svg">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-12 pe-0">
+                    <div class="  Investment_content bg-white d-flex justify-content-around">
+                        <div class="make_img d-lg-block d-none ">
+                            <img src="images/awward.svg">
+                        </div>
+                        <div class="Investment_title text-lg-end text-left">
+                            <h3 class="pt-3">
+                                Profitable Investment Proposals
+                            </h3>
+                            <p class="trade-with__text text">
+                                You will always be offered only the best deals <br>on market
+                            </p>
+                        </div>
+                        <div class="make_img d-lg-none d-block">
+                            <img src="images/awward.svg">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6 col-12 pe-0">
+                    <div class="  Investment_content bg-white d-flex justify-content-around">
+                        <div class="Investment_title">
+                            <h3 class="pt-3">
+                                Protection of Personal Data
+                            </h3>
+                            <p class="trade-with__text text">
+                                Your personal information is securely <br> protected at all times
+                            </p>
+                        </div>
+                        <div class="make_img">
+                            <img src="images/shield.svg">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-12 pe-0">
+                    <div class="  Investment_content bg-white d-flex justify-content-around">
+                        <div class="make_img d-lg-block d-none">
+                            <img src="images/team.svg">
+                        </div>
+                        <div class="Investment_title text-lg-end text-left">
+                            <h3 class="pt-3">
+                                Professional Team
+                            </h3>
+                            <p class="trade-with__text text">
+                                Experienced team works day-by-day to make <br>you earn money
+                            </p>
+                        </div>
+                        <div class="make_img d-lg-none d-block">
+                            <img src="images/team.svg">
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="sec_fore">
+        <div class="row justify-content-xxl-end justify-content-between  mx-0 ms-xl-5 ms-0 pb-5 ">
+            <div class="col-xl-4 col-lg-5 col-12  mt-5 pt-4 pb-5">
+                <div class="">
+                    <div class="Trading_box ps-xl-0 ps-4">
+                        <h2> Start Trading in<br> <span>3 Easy Steps</span> </h2>
+                    </div>
+
+
+                    <div class="ms-5 ps-xl-2 ps-4">
+                        <div class="sing_box pt-4 position-relative">
+                            <h3>Sign Up</h3>
+                            <p>Register now to gain access to all of our<br> features</p>
+                        </div>
+
+
+                        <div class="sing_box1 pt-5  position-relative  position-relative ">
+                            <h3>Make a Deposit</h3>
+                            <p>To start trading you have to deposit the<br>required amount</p>
+                        </div>
+
+
+
+                        <div class="sing_box2 pt-5 position-relative ">
+                            <h3>Pick a Plan</h3>
+                            <p>Pick and choose an investment plan<br>that suits you best</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-lg-7 col-12 px-0 ps-lg-3 ps-0">
+                <div class="start_img ms-lg-5 ms-0 ps-lg-4 ps-0">
+                    <img src="images/start-trading.webp">
+
+                </div>
+            </div>
+
+            <div class="join text-center pt-xl-5 pt-0 mt-xl-5 mt-lg-0 mt-5 pb-3">
+                <a href="#">Join</a>
+
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="position-relative">
+        <div class="footer_box pt-5 pb-2">
+            <div class="row mx-0 py-5 gy-0 gy-5  justify-content-xl-center justify-content-start">
+
+
+                <div class="col-lg-5 col-12 mt-0">
+                    <div class="row justify-content-lg-between justify-content-center">
+                        <div class="col-lg-7 col-sm-5 col-12">
+                            <div class="logo  d-flex justify-content-center">
+                                <a href="#" class="logo_img">
+                                    <img src="images/logo.svg">
+                                </a>
+                                <div class="logo_title pt-2 d-xxl-block d-none">
+                                    <span>since 2015</span>
+                                    <span> online <span class="a">3157</span> days</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-sm-6 col-12">
+                            <!-- <div class=""> -->
+
+                            <!-- <div class=""> -->
+                            <h2 class="pay">Payment Methods </h2>
+                            <div class="Payment_box">
+                                <div class="Payment_content bg-white">
+                                    <img src="images/usdt-trc20.png">
+                                </div>
+
+                                <div class="Payment_content">
+                                    <img src="images/visa.svg">
+                                </div>
+                                <div class="Payment_content">
+                                    <img src="images/mastercard.svg">
+                                </div>
+                                <div class="Payment_content">
+                                    <img src="images/etherium.svg">
+                                </div>
+                                <div class="Payment_content">
+                                    <img src="images/bitcoin.svg">
+                                </div>
+                                <div class="Payment_content">
+                                    <img src="images/bnb.svg">
+                                </div>
+                                <div class="Payment_content">
+                                    <img src="images/usdc.svg">
+                                </div>
+                                <div class="Payment_content">
+                                    <img src="images/lightcoin.svg">
+                                </div>
+                                <div class="Payment_content">
+                                    <img src="images/bnb.svg">
+                                </div>
+                                <div class="Payment_content">
+                                    <img src="images/doge.svg">
+                                </div>
+                                <div class="Payment_content">
+                                    <img src="images/wallet.svg">
+                                </div>
+                                <div class="Payment_content">
+                                    <img src="images/tron.svg">
+                                </div>
+                                <div class="Payment_content">
+                                    <img src="images/usdt.png">
+                                </div>
+                            </div>
+                            <!-- </div> -->
+
+                            <!-- </div> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-7 col-12">
+                    <div class="row justify-content-xl-between  justify-content-center gy-xl-0 gy-5">
+                        <div class="col-xl-2 col-sm-3 col-6">
+                            <h2 class="pay"> Trading Center </h2>
+                            <ul class="ps-0 trading ">
+                                <li>
+                                    <a href="#">
+                                        Home
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        About us
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Team
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Strategy
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-xl-2 col-sm-3 col-6">
+                            <h2 class="pay">
+                                Learning
+                            </h2>
+                            <ul class="ps-0 trading ">
+                                <li>
+                                    <a href="#">
+                                        Investment plans
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Cash in
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Cash Out
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Guarantees
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+
+                        <div class="col-xl-3 col-sm-3 col-6">
+
+                            <h2 class="pay">
+                                Promotion
+                            </h2>
+                            <ul class="ps-0 trading ">
+                                <li>
+                                    <a href="#">
+
+                                        Partnership
+
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+
+                                        Investors
+
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+
+                                        Official representatives
+
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+
+                                        Financial Plans
+
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-xl-3 col-sm-3 col-6">
+                            <h2 class="pay">
+                                About Us
+                            </h2>
+                            <ul class="ps-0 trading ">
+                                <li>
+                                    <a href="#">
+
+                                        Internal Processes
+
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+
+                                        Expansion of the company
+
+
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+
+                                        Organization of Work
+
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+
+                                        Contact
+
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>

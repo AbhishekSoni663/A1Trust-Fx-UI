@@ -1,0 +1,50 @@
+section.cashinbanner {
+    background-image: url(../images/cash-in.webp);
+    height: 391px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: bottom;
+}
+.minmaxprice span {
+    font-weight: var(--font-weight-900);
+}   
+.minmaxprice {
+    font-size: var(--font-10);
+}
+.card-footer:before {
+    background: var(--color-tab-active);
+    border-radius: 6px;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: .3;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    transform: scale(-1);
+    width: 100%;
+}
+.overlaycard:before {
+    background-color: rgba(0,0,0,.5);
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+@media screen and (max-width: 992px) {
+    section.cashinbanner {
+        height: 356px;
+        background-size: cover;
+    }
+    }
+    @media screen and (max-width: 768px) {
+    section.cashinbanner {
+        height: 326px;
+    }
+    }
+    @media screen and (max-width: 576px) {
+    section.cashinbanner {
+        height: 202px;
+    }
+    }
