@@ -616,7 +616,7 @@
     display: none !important;
   }
   .headers-btn {
-    padding-bottom: 50px !important;
+    padding-bottom: 20px !important;
   }
   .first-nav {
     display: none !important;
@@ -786,6 +786,9 @@
   .card-box-col1 {
     margin-top: 22px !important;
     /*margin-bottom: -17px;*/
+  }
+  .headers-btn {
+    padding-bottom: 20px !important;
   }
   .offcanvas {
     position: fixed;
