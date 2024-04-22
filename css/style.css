@@ -932,7 +932,7 @@ footer:after {
     display: none;
 }
 .headers-btn{
-    padding-bottom: 120px !important;
+    padding-bottom: 90px !important;
 }
 .ab-drp-bt:before {
     background: var(--color-tab-active);
