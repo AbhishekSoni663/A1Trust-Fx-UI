@@ -977,21 +977,7 @@ span.navbar-toggler-icon:before {
     background-repeat: no-repeat;
     top: 0px;
 }
-.offcanvas {
-    position: fixed;
-    bottom: 0;
-    z-index: var(--bs-offcanvas-zindex);
-    display: flex;
-    flex-direction: column;
-    max-width: 100%;
-    height: 120vh;
-    color: var(--bs-offcanvas-color);
-    visibility: hidden;
-    background-color: var(--bs-offcanvas-bg);
-    background-clip: padding-box;
-    outline: 0;
-    transition: var(--bs-offcanvas-transition);
-}
+
 ul.dropdown-menu {
     /* position: absolute; */
     width: 235px;
