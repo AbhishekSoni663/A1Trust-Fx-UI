@@ -133,6 +133,7 @@ font-weight: var(--font-weight-700);
     .content h1, .content span {
         font-size: var(--font-27);
         font-weight: var(--font-weight-900);
+        line-height: 1.2;
     }
     section.aboutbanner {
         height: 202px;

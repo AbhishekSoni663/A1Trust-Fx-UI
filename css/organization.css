@@ -28,6 +28,6 @@ section.organizationbanner {
 }
 @media screen and (max-width: 576px) {
     section.organizationbanner {
-        height: 231px;
+        height: 202px;
     }
 }

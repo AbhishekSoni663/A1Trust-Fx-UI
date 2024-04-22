@@ -225,7 +225,7 @@
   }
 
   li.nav_item {
-    padding: 0 6px !important;
+    /* padding: 0 6px !important; */
     list-style: none;
   }
 
@@ -413,6 +413,9 @@
 @media screen and (max-width: 991px) {
   section.sec_one {
     height: 500px !important;
+  }
+  .c-h3{
+    font-size: var(--font-43) !important;
   }
   .contain_one {
     max-width: 992px !important;
@@ -619,7 +622,7 @@
     padding-bottom: 20px !important;
   }
 .offcanvas{
-  min-height: 90vh;
+  min-height: 80vh;
 }
   .first-nav {
     display: none !important;
