@@ -926,7 +926,6 @@ footer:after {
     animation: slideDown 0.35s ease-out;
     transition: 0.3s;
     z-index: 2;
-    /* height: 100%; */
 }
 
 .about-dropdown-btn {

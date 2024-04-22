@@ -625,7 +625,6 @@
 
   .second-nav {
     display: block !important;
-    height: 100%;
   }
 
   .nav_link {
@@ -789,20 +788,7 @@
     margin-top: 22px !important;
     /*margin-bottom: -17px;*/
   }
-  .offcanvas {
-    position: fixed;
-    bottom: 0;
-    z-index: var(--bs-offcanvas-zindex);
-    display: flex;
-    flex-direction: column;
-    max-width: 100%;
-    color: var(--bs-offcanvas-color);
-    visibility: hidden;
-    background-color: var(--bs-offcanvas-bg);
-    background-clip: padding-box;
-    outline: 0;
-    transition: var(--bs-offcanvas-transition);
-  }
+  
   .rowfootercol {
     grid-template-columns: 55% 45%;
     column-gap: 0px;
@@ -1508,7 +1494,9 @@
 
 .offcanvas {
   background-color: var(--color-dark-300) !important;
-  min-height: 100vh;
+}
+.offcanvas-body{
+  background-color: var(--color-dark-300) !important;
 }
 
 .nav-home {
