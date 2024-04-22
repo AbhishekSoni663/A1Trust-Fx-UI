@@ -618,12 +618,14 @@
   .headers-btn {
     padding-bottom: 20px !important;
   }
+
   .first-nav {
     display: none !important;
   }
 
   .second-nav {
     display: block !important;
+    height: 100%;
   }
 
   .nav_link {
@@ -1506,6 +1508,7 @@
 
 .offcanvas {
   background-color: var(--color-dark-300) !important;
+  min-height: 100vh;
 }
 
 .nav-home {
