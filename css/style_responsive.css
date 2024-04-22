@@ -615,9 +615,9 @@
   .header-btn a {
     display: none !important;
   }
-  .headers-btn{
+  .headers-btn {
     padding-bottom: 20px !important;
-}
+  }
   .first-nav {
     display: none !important;
   }
@@ -718,7 +718,7 @@
     right: 3px !important;
     background-repeat: no-repeat;
     top: 3px;
-}
+  }
   .dp-div {
     opacity: 0.3 !important;
   }
@@ -726,7 +726,7 @@
   /*  */
   section.sec_one {
     height: 491px !important;
-}
+  }
 
   a.start {
     padding: 15px 45px !important;
@@ -794,14 +794,14 @@
     display: flex;
     flex-direction: column;
     max-width: 100%;
-    /* height: 120vh; */
+    min-height: 100vh;
     color: var(--bs-offcanvas-color);
     visibility: hidden;
     background-color: var(--bs-offcanvas-bg);
     background-clip: padding-box;
     outline: 0;
     transition: var(--bs-offcanvas-transition);
-}
+  }
   .rowfootercol {
     grid-template-columns: 55% 45%;
     column-gap: 0px;
