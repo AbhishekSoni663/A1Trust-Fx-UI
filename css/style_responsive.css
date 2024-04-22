@@ -1505,12 +1505,7 @@
 /* Abhisehk-Soni */
 
 .offcanvas {
-  min-height: auto;
   background-color: var(--color-dark-300) !important;
-}
-
-.offcanvas-body {
-  min-height: auto;
 }
 
 .nav-home {
