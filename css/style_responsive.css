@@ -1497,6 +1497,7 @@
 }
 .offcanvas-body{
   background-color: var(--color-dark-300) !important;
+  min-height: 90vh;
 }
 
 .nav-home {
