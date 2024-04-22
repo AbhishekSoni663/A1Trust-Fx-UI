@@ -615,7 +615,9 @@
   .header-btn a {
     display: none !important;
   }
-
+  .headers-btn{
+    padding-bottom: 90px !important;
+}
   .first-nav {
     display: none !important;
   }
@@ -1490,7 +1492,7 @@
 /* Abhisehk-Soni */
 
 .offcanvas {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   background-color: var(--color-dark-300) !important;
 }
 
