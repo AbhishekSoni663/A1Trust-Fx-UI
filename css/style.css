@@ -990,9 +990,6 @@ ul.dropdown-menu {
 .dropdown-toggle::after {
   display: none !important;
 }
-.offcanvas {
-  max-height: 100;
-}
 
 .rotate {
   transform: rotate(180deg) !important;
