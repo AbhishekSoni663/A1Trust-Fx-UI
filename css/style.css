@@ -1248,10 +1248,11 @@ ul.Steps {
     background-color: var(--color-dark-300) !important;
     overflow-y: auto;
     min-height:68vh;
+    z-index: 1050;
   }
   .offcanvas-body{
     background-color: var(--color-dark-300) !important;
-    min-height: 80vh;
+    min-height: 100vh;
   }
   
   .nav-home {
