@@ -9,9 +9,11 @@ header.sticky {
     position: fixed;
     top: 0;
     left: 0;
+    min-height: 66vh;
+    z-index: 1050;
     right: 0;
     background: #1a1b24;
-    transform: translateY(-200%);
+    transform: translateY(0);
     transition: all 0.2s ease;
 }
 
