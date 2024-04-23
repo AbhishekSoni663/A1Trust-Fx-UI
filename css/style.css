@@ -12,7 +12,7 @@ header.sticky {
     z-index: 1050;
     right: 0;
     background: #1a1b24;
-    transform: translateY(0);
+    transform: translateY(-200%);
     transition: all 0.2s ease;
 }
 
@@ -1248,20 +1248,14 @@ ul.Steps {
 .offcanvas {
     background-color: var(--color-dark-300) !important;
     overflow-y: auto;
-    min-height: 66vh;
+    min-height:100vh;
     z-index: 1051 !important; 
 }
-.offcanvas.offcanvas-end {
-    top: 0;
-    min-height: 88vh;
-    right: 0;
-    width: var(--bs-offcanvas-width);
-    border-left: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);
-    transform: translateX(100%);
+.headers-btn{
+    margin-bottom: 100px;
 }
   .offcanvas-body{
     background-color: var(--color-dark-300) !important;
-    min-height: 100vh;
   }
   
   .nav-home {
