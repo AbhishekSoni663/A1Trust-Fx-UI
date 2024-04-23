@@ -52,6 +52,11 @@
 
 @media(max-width:398px){
   .loginform {
-    width: 262px;
+    width: 274px;
+}
+}
+@media(max-width:330px){
+  .loginform {
+    width: 260px !important;
 }
 }

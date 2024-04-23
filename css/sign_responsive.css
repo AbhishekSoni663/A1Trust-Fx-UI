@@ -56,7 +56,7 @@
         height: 805px !important;
     }
   .task-2 {
-    width: 400px !important;
+    width: 445px !important;
   }
   /* Abhisehk */
   .signup-new-label {
@@ -69,6 +69,9 @@
     .dont-1 p{
         display: flex;
         flex-direction: column;
+    }
+    .task-2 {
+      width: 370px !important;
     }
 }
 @media screen and (max-width: 425px) {
@@ -104,7 +107,7 @@
   /* Abhisehk */
   .signup-new-label {
     font-size: var(--font-12);
-
+    width: 224px;
   }
   .signup-new-label a {
     font-size: var(--font-12);
@@ -124,7 +127,7 @@
     left: 49% !important;
   }
   section.sec_one {
-    height: 800px !important;
+    height: 817px !important;
   }
   .dont-1 {
     padding: 0 10px;

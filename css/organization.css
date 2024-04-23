@@ -21,13 +21,30 @@ section.organizationbanner {
     height: 326px;
 }
 }
+
 @media screen and (max-width: 640px) {
 section.organizationbanner {
     height: 394px;
 }
 }
+@media(max-width:764px){
+.org-span{
+    line-height: 1.5;
+}
+}
 @media screen and (max-width: 576px) {
     section.organizationbanner {
-        height: 202px;
+        height: 203px;
     }
+    .d-table-cell h1{
+        margin-bottom: -2px !important;
+    }
+}
+@media screen and (max-width: 375px) {
+    section.organizationbanner {
+        height: 233px;
+    }
+    .org-span{
+        line-height: 1.1;
+    } 
 }

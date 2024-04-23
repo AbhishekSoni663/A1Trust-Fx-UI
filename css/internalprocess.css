@@ -27,6 +27,19 @@ section.internalbanner {
     
     @media screen and (max-width: 576px) {
     section.internalbanner {
-        height: 202px;
+        height: 203px;
     }
+    .cardsbox h4 {
+        font-size: var(--font-20);
+    }
+    }
+    @media(max-width:416px){
+        .intern-p{
+            margin-bottom: 0px !important;
+        }
+    }
+    @media(max-width:367px){
+        .intern-p1{
+            margin-bottom: 0px !important;
+        }
     }

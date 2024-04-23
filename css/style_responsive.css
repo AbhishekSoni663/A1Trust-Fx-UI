@@ -785,10 +785,10 @@
     padding: 12px 35px !important;
     font-size: 15px !important;
   }
-  .c-form textarea {
+  /* .c-form textarea {
     border-radius: 10px !important;
     margin-top: 25px !important;
-  }
+  } */
   .card-box-col1 {
     margin-top: 22px !important;
     /*margin-bottom: -17px;*/
@@ -1495,45 +1495,7 @@
   }
 }
 
-/* Abhisehk-Soni */
 
-.offcanvas {
-  background-color: var(--color-dark-300) !important;
-}
-.offcanvas-body{
-  background-color: var(--color-dark-300) !important;
-}
-.offcanvas.offcanvas-end {
-  height: 100vh;
-}
-.nav-home {
-  height: 65px;
-}
-
-.nav-about {
-  height: 270px;
-  margin-top: 10px;
-}
-
-.nav-inv {
-  height: 280px;
-  margin-top: 20px;
-}
-
-.nav-part {
-  height: 260px;
-  margin-top: 40px;
-}
-
-.nav-fin {
-  height: 250px;
-  margin-top: 35px;
-}
-
-.nav-contact {
-  margin-top: 30px;
-  height: 40px;
-}
 
 @media (max-width: 320px) {
   /* Govind css start */

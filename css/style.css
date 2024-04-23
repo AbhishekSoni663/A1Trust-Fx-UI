@@ -1241,3 +1241,43 @@ ul.Steps {
     font-weight: 900;
 }
 /* Govind css end */
+
+/* Abhisehk-Soni */
+
+.offcanvas {
+    background-color: var(--color-dark-300) !important;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .offcanvas-body{
+    background-color: var(--color-dark-300) !important;
+  }
+  
+  .nav-home {
+    height: 65px;
+  }
+  
+  .nav-about {
+    height: 270px;
+    margin-top: 10px;
+  }
+  
+  .nav-inv {
+    height: 280px;
+    margin-top: 20px;
+  }
+  
+  .nav-part {
+    height: 260px;
+    margin-top: 40px;
+  }
+  
+  .nav-fin {
+    height: 250px;
+    margin-top: 35px;
+  }
+  
+  .nav-contact {
+    margin-top: 30px;
+    height: 40px;
+  }
