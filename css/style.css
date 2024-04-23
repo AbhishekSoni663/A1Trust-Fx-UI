@@ -1249,10 +1249,12 @@ ul.Steps {
 .offcanvas {
     position: fixed;
     bottom: 0;
+    z-index: 1045;
     display: flex;
     flex-direction: column;
     max-width: 100%;
     visibility: hidden;
+    background-color: #fff;
     background-clip: padding-box;
     outline: 0;
     min-height: 100vh !important;
@@ -1264,7 +1266,7 @@ ul.Steps {
 .offcanvas,
 .offcanvas-body,
 .header.sticky {
-  all: initial !important;
+  all: initial;
 }
 
 .nav-home {
