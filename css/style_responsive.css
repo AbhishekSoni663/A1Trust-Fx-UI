@@ -1502,9 +1502,10 @@
 }
 .offcanvas-body{
   background-color: var(--color-dark-300) !important;
-  height: max-content;
 }
-
+.offcanvas.offcanvas-end {
+  height: 100vh;
+}
 .nav-home {
   height: 65px;
 }

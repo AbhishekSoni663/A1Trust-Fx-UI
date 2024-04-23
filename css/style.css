@@ -994,9 +994,7 @@ ul.dropdown-menu {
 .offcanvas{
     max-height: 100;
 }
-.offcanvas-body{
-    min-height: 100vh;
-}
+
 .rotate {
     transform: rotate(180deg) !important;
 }
