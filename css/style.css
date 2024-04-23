@@ -1247,7 +1247,7 @@ ul.Steps {
 .offcanvas {
     background-color: var(--color-dark-300) !important;
     height: 100vh;
-    overflow: hidden;
+    overflow-y: hidden;
   }
   .offcanvas-body{
     background-color: var(--color-dark-300) !important;
