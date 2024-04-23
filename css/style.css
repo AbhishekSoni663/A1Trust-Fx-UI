@@ -1243,7 +1243,7 @@ ul.Steps {
 .offcanvas {
   background-color: var(--color-dark-300) !important;
   overflow-y: auto !important;
-  min-height: 100vh;
+  min-height: 70vh;
   z-index: 1051; /* Higher than the sticky header z-index */
 }
 .offcanvas {
