@@ -992,10 +992,10 @@ ul.dropdown-menu {
     display: none !important;
 }
 .offcanvas{
-    height: max-content;
+    height: 100%;
 }
 .offcanvas-body{
-    max-height: 100vh;
+    min-height: 100vh;
 }
 .rotate {
     transform: rotate(180deg) !important;
