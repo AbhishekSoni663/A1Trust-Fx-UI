@@ -1246,12 +1246,12 @@ ul.Steps {
 
 .offcanvas {
     background-color: var(--color-dark-300) !important;
-    height: 100vh;
     overflow-y: hidden;
+    min-height: 100vh;
   }
   .offcanvas-body{
-    height: 80vh;
     background-color: var(--color-dark-300) !important;
+    min-height: 70vh;
   }
   
   .nav-home {
