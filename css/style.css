@@ -9,7 +9,7 @@ header.sticky {
     position: fixed;
     top: 0;
     left: 0;
-    min-height: 66vh;
+    min-height: 100vh;
     z-index: 1050;
     right: 0;
     background: #1a1b24;
