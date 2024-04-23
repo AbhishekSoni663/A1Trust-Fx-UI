@@ -621,9 +621,9 @@
   .headers-btn {
     padding-bottom: 20px !important;
   }
-.offcanvas{
+/* .offcanvas{
   min-height: 80vh;
-}
+} */
   .first-nav {
     display: none !important;
   }
@@ -1502,7 +1502,7 @@
 }
 .offcanvas-body{
   background-color: var(--color-dark-300) !important;
-  min-height: 90vh;
+  height: max-content;
 }
 
 .nav-home {

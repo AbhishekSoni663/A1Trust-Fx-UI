@@ -20,28 +20,38 @@
   }
 
   section.sec_one {
-    height: 520px !important;
+    height: 535px !important;
     top: 0px !important;
   }
-  .loginform {
-    min-width: 370px;
-  }
+  
+
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 475px) {
   .loginform {
-    min-width: 320px;
-  }
+    width: 337px;
+}
 }
 @media screen and (max-width: 375px) {
-  .loginform {
-    min-width: 100%;
-  }
+ .dontnew{
+  display: flex !important;
+  flex-direction: column !important;
+ }
+ .dotnew-p{
+  display: flex !important;
+  flex-direction: column !important;
+ }
   .Trust {
-    font-size: var(--font-30);
+    font-size: var(--font-30) !important;
     font-weight: var(--font-weight-800);
     background: var(--gradient-btn);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
   }
+}
+
+@media(max-width:398px){
+  .loginform {
+    width: 262px;
+}
 }

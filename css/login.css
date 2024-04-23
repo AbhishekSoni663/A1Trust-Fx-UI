@@ -22,9 +22,11 @@ section.sec_one {
 .dontnew p, .dontnew a {
     font-size: var(--font-18);
 }
-
-.Trust {
-	font-size: var(--font-35);
+.btntext{
+    max-width: 255px !important;
+}
+.trust-h1 {
+	font-size: var(--font-35) !important;
     font-weight: 800;
 background: linear-gradient(180deg, #80d0c8, #0596e8);
 	-webkit-text-fill-color: transparent;
@@ -36,7 +38,7 @@ background: linear-gradient(180deg, #80d0c8, #0596e8);
 }
 
 .loginform {
-    min-width: 425px;
+    width: 425px;
 }
 .loginform input {
     padding: 14px 20px;
@@ -48,7 +50,7 @@ background: linear-gradient(180deg, #80d0c8, #0596e8);
     transition: 0.3s;
     display: inline-block;
     font-weight: var(--font-weight-600);
-    width: 255px;
+    max-width: 255px;
     font-size: var(--font-18);
 }
 .dontnew p {
