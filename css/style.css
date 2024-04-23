@@ -16,7 +16,7 @@ header.sticky {
 }
 
 body.scroll header.sticky {
-    transform: translateY(0);
+    transform: translateY(auto);
 }
 
 .dropdown__item.divider:after {
@@ -1247,9 +1247,9 @@ ul.Steps {
 .offcanvas {
     background-color: var(--color-dark-300) !important;
     overflow-y: auto;
-    min-height:68vh;
-    z-index: 1050;
-  }
+    min-height: 66vh;
+    z-index: 1051 !important; 
+}
   .offcanvas-body{
     background-color: var(--color-dark-300) !important;
     min-height: 100vh;
