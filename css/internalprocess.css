@@ -27,7 +27,7 @@ section.internalbanner {
     
     @media screen and (max-width: 576px) {
     section.internalbanner {
-        height: 203px;
+        height: 205px;
     }
     .cardsbox h4 {
         font-size: var(--font-20);

@@ -29,6 +29,6 @@ section.financialbanner {
 }
 @media screen and (max-width: 576px) {
 section.financialbanner {
-    height: 203px;
+    height: 202px;
 }
 }

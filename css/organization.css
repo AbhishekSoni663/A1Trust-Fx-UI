@@ -34,7 +34,7 @@ section.organizationbanner {
 }
 @media screen and (max-width: 576px) {
     section.organizationbanner {
-        height: 203px;
+        height: 202px;
     }
     .d-table-cell h1{
         margin-bottom: -2px !important;
@@ -42,9 +42,9 @@ section.organizationbanner {
 }
 @media screen and (max-width: 375px) {
     section.organizationbanner {
-        height: 233px;
+        height: 235px;
     }
-    .org-span{
-        line-height: 1.1;
-    } 
+    .d-table-cell{
+        line-height: 0px !important;
+    }
 }

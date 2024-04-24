@@ -45,7 +45,7 @@ section.expansionbanner {
 
 @media screen and (max-width: 768px) {
   section.expansionbanner {
-    height: 394px !important;
+    height: 396px !important;
   }
   .span-act {
     line-height: 1.5;
