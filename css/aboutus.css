@@ -187,7 +187,7 @@ section.aboutpage {
 #ab-drp-bt {
   border-left: 5px solid var(--color-blue-400);
   box-shadow: var(--shadow-light) !important;
-  z-index: 1;
+  z-index: 0;
 }
 
 .ab-btn-1 {
