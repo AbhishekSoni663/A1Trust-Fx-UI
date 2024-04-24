@@ -1271,7 +1271,10 @@
     grid-template-columns: 48% 50%;
     column-gap: 0px;
   }
-
+  .offcanvas {
+    background-color: var(--color-dark-300) !important;
+    height: 89vh !important;
+  }
   .colrowfootercol.colrowfootresponsive {
     padding-left: 1.5rem;
   }
@@ -1493,11 +1496,10 @@
 
 .offcanvas {
   background-color: var(--color-dark-300) !important;
-  height: 88vh;
+  height: 100vh;
 }
 .offcanvas-body{
   background-color: var(--color-dark-300) !important;
-  min-height: -webkit-fill-available;
 }
 
 .nav-home {

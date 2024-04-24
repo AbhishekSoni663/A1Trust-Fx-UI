@@ -138,10 +138,12 @@ section.aboutpage {
     font-weight: var(--font-weight-900);
     line-height: 1.2;
   }
+  /* Abhishek Soni */
   .ab-dp-menu div {
     font-size: var(--font-12) !important;
     font-weight: var(--font-weight-600) !important;
   }
+  /*  */
   section.aboutbanner {
     height: 203px;
     background-size: cover;
@@ -154,6 +156,8 @@ section.aboutpage {
   }
 }
 
+/* Abhishek Soni */
+
 .ab-dp-menu div {
   padding: 10px 10px 10px 15px;
 }
@@ -165,9 +169,7 @@ section.aboutpage {
 .about-dropdown-btn {
   display: none;
 }
-/* .headers-btn{
-        padding-bottom: 90px !important;
-    } */
+
 .drop-bg:before {
   background: var(--color-tab-active);
   content: "";
@@ -202,16 +204,19 @@ section.aboutpage {
 }
 
 #aboutDropdownMenu {
-  margin-top: -7px !important;
+  margin-top: -14px !important;
   box-shadow: var(--shadow-light) !important;
   border: none;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
 }
 @media (max-width: 767px) {
   .about-dropdown-btn {
     display: block;
   }
   .ab-dp-menu div {
-    font-size: var(--font-14);
+    font-size: var(--font-16);
     font-weight: var(--font-weight-600) !important;
   }
 }
+/*  */
