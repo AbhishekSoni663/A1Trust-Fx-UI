@@ -618,6 +618,10 @@
   .header-btn a {
     display: none !important;
   }
+  .offcanvas {
+    background-color: var(--color-dark-300) !important;
+    max-height: 100vh !important;
+  }
   .headers-btn {
     padding-bottom: 20px !important;
   }
@@ -1271,10 +1275,7 @@
     grid-template-columns: 48% 50%;
     column-gap: 0px;
   }
-  .offcanvas {
-    background-color: var(--color-dark-300) !important;
-    max-height: 91vh !important;
-  }
+  
   .colrowfootercol.colrowfootresponsive {
     padding-left: 1.5rem;
   }
