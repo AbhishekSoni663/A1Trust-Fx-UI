@@ -618,7 +618,9 @@
   .header-btn a {
     display: none !important;
   }
-
+  .headers-btn {
+    padding-bottom: 20px !important;
+  }
 /* .offcanvas{
   min-height: 80vh;
 } */
@@ -644,7 +646,7 @@
     font-size: 16px !important;
   }
 
-  ul.dropdown-menu {
+  .mainnav_new ul.dropdown-menu {
     width: 235px;
     padding: 0 15px;
     margin-top: 30px !important;
@@ -783,10 +785,10 @@
     padding: 12px 35px !important;
     font-size: 15px !important;
   }
-  /* .c-form textarea {
+  .c-form textarea {
     border-radius: 10px !important;
     margin-top: 25px !important;
-  } */
+  }
   .card-box-col1 {
     margin-top: 22px !important;
     /*margin-bottom: -17px;*/
@@ -1479,21 +1481,53 @@
 
 /* Abhisehk Soni */
 @media (max-width: 767px) {
-  .about-dropdown-btn {
-    display: block;
-  }
   .fin-part-btn {
     margin-top: 13px !important;
   }
   .part-main {
     padding: 8px 14px !important;
   }
-  .ab-drp-bt {
-    margin-top: 55px;
-  }
 }
 
+/* Abhisehk-Soni */
 
+.offcanvas {
+  background-color: var(--color-dark-300) !important;
+  height: 100vh;
+}
+.offcanvas-body{
+  background-color: var(--color-dark-300) !important;
+  min-height: auto;
+}
+
+.nav-home {
+  height: 65px;
+}
+
+.nav-about {
+  height: 270px;
+  margin-top: 10px;
+}
+
+.nav-inv {
+  height: 280px;
+  margin-top: 20px;
+}
+
+.nav-part {
+  height: 260px;
+  margin-top: 40px;
+}
+
+.nav-fin {
+  height: 250px;
+  margin-top: 35px;
+}
+
+.nav-contact {
+  margin-top: 30px;
+  height: 40px;
+}
 
 @media (max-width: 320px) {
   /* Govind css start */
