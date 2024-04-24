@@ -1273,7 +1273,7 @@
   }
   .offcanvas {
     background-color: var(--color-dark-300) !important;
-    height: 89vh !important;
+    max-height: 91vh !important;
   }
   .colrowfootercol.colrowfootresponsive {
     padding-left: 1.5rem;
